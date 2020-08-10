@@ -24,51 +24,46 @@
 - Requisições feitas pelo [Axios](https://github.com/axios/axios)
 ## 3 - Rodar Aplicação
 - Para executar a aplicação é necessário instalar o [Node (Versão LTS)](https://nodejs.org/en/)
--  Faça o clone desta aplicação no seu computador
- 
+#### 3.1 - Faça o clone desta aplicação no seu computador
+
 ```sh
-    git clone https://github.com/dougcarvalho92/supermercado-now-test.git
+$ git clone https://github.com/dougcarvalho92/supermercado-now-test.git
 ```   
-
-- Acesse as pastas backend  o comando abaixo no terminal:
-
-```sh
-npm install
-```
-
-- Acesse as pastas backend e frontend e execute o comando abaixo no terminal:
-
+### 3.2 - Acesse as pastas backend e frontend e execute o comando abaixo no terminal:
 
 ```sh
-npm install
+$ npm install
 ```
-##### Assim que terminar o download das dependência, execute os comandos abaixo:
- - Executar o banco de dados (Na pasta backend):    
+`! Assim que terminar o download das dependência, execute os comandos abaixo:`
+ 
+### 3.3 - Executar o banco de dados :   
+`Na pasta backend`
 ```sh
-npm run migrate
+$ npm run migrate
 ```
- - Voltar uma versão de atualização do banco de dados:   
+`Criar usuário admin (root@root.com.br, 12345)`
 ```sh
-npm run rollback
-
+$ npx knex seed:run 
 ```
-
-## Executar testes
-- Acesse a pasta backend e execute o comando abaixo
-
-
-
+`Voltar uma versão de atualização do banco de dados:`   
 ```sh
-npm run test
+$ npm run rollback
 ```
-
+### 3.4 - Executar o backend e o frontend
+`Basta entrar em cada uma das pastas e executar o comando abaixo`
+```sh
+$ npm start
+```
+### 3.5 - Executar testes
+`Acesse a pasta backend e execute o comando abaixo`
+```sh
+$ npm run test
+```
 
 ## Author
 
 👤 **Douglas Carvalho**
 
-* Website: https://dougcarvalho92.github.io/my-resume-react/
-* Twitter: [@empty](https://twitter.com/empty)
 * Github: [@dougcarvalho92](https://github.com/dougcarvalho92)
 * LinkedIn: [@dscarvalho92](https://linkedin.com/in/dscarvalho92)
 
