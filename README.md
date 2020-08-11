@@ -57,8 +57,10 @@ $ npm start
 ### 3.5 - Executar testes
 - Criação de usuário
 - Login
-- Insersão de produto com upload de imagem.
-`Acesse a pasta backend e execute o comando abaixo`
+- Insersão de produto com upload de imagem
+
+ `Acesse a pasta backend e execute o comando abaixo`
+
 ```sh
 $ npm run test
 ```
