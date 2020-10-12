@@ -1,4 +1,4 @@
-# Supermercado Now - Test
+# Products List
 > Sistema de catalogo de produtos
 
 #### Resumo
